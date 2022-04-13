@@ -1,5 +1,7 @@
 const Button = ({ children, variant, className, textClassName, ...props }) => {
-  const defaultClassName = `py-2 px-4 rounded-lg ${className ?? ''}`
+  const defaultClassName = `py-2 px-4 rounded-lg active:scale-95 transition-transform transform ${
+    className ?? ''
+  }`
 
   switch (variant) {
     case 'primary':
