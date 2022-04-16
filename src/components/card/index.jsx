@@ -1,6 +1,6 @@
 import Button from '../button'
 
-export default function Card({ title, TextButton, img }) {
+export default function Card({ title, textButton, img }) {
   const pickedImage = img ? img : 'dummy.png'
   return (
     <div
@@ -13,7 +13,7 @@ export default function Card({ title, TextButton, img }) {
       <div className="flex flex-col justify-between h-full">
         <h1 className="text-xl font-bold text-white">{title}</h1>
         <Button className="self-end" variant="secondary">
-          {TextButton}
+          {textButton}
         </Button>
       </div>
     </div>
