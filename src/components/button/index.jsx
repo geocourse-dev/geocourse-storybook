@@ -16,10 +16,7 @@ const Button = ({ children, variant, className, textClassName, ...props }) => {
 
     case 'secondary':
       return (
-        <button
-          className={`bg-white border-2 border-.. ${defaultClassName}`}
-          {...props}
-        >
+        <button className={`bg-white ${defaultClassName}`} {...props}>
           <p className="text-primary font-bold">{children}</p>
         </button>
       )
