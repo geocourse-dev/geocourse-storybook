@@ -8,6 +8,7 @@ export default function Home() {
       <Card
         title="Google Earth Engine untuk Pemula"
         TextButton="Lihat Course"
+        img="dummy.png"
       />
     </>
   )
