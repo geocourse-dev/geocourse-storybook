@@ -3,13 +3,21 @@ import { Button, Card } from '../components'
 export default function Home() {
   return (
     <>
-      <h1>test komponen storybook</h1>
-      <Button variant="primary">Test </Button>
-      <Card
-        title="Google Earth Engine untuk Pemula"
-        TextButton="Lihat Course"
-        img="dummy.png"
-      />
+      <div className="mx-auto p-5">
+        <h1>test komponen storybook</h1>
+        <Button variant="primary">Test </Button>
+        <Card
+          title="Google Earth Engine untuk Pemula"
+          textButton="Lihat Course"
+          img="dummy.png"
+        />
+        <Card
+          img="dummy-2.png"
+          textButton="Daftar Gratis"
+          title="Membuat Visualisasi 3D untuk Topografi Menggunakan Blender"
+          onClick={() => console.log('test')}
+        />
+      </div>
     </>
   )
 }
