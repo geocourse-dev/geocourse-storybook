@@ -1,9 +1,9 @@
-import { Button, Card } from '../components'
+import { Button, Card, Footer } from '../components'
 
 export default function Home() {
   return (
     <>
-      <div className="mx-auto p-5">
+      <div className="mx-auto p-5 h-screen">
         <h1>test komponen storybook</h1>
         <Button variant="primary">Test </Button>
         <Card
@@ -18,6 +18,7 @@ export default function Home() {
           onClick={() => console.log('test')}
         />
       </div>
+      <Footer />
     </>
   )
 }
