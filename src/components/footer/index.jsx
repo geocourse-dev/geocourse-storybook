@@ -6,7 +6,7 @@ export default function Footer() {
       <div className="w-full md:w-3/12 flex flex-col justify-between gap-3">
         <div className="">
           <h1 className="font-bold text-4xl">Geocourse.id</h1>
-          <p className="text-justify font-medium">
+          <p className="text-center md:text-justify font-medium">
             Merupakan startup yang berfokus dalam pengembangan SDM di bidang
             geospatial 4.0
           </p>
