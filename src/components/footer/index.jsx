@@ -1,4 +1,4 @@
-import Image from 'next/image'
+import Social from './social'
 
 export default function Footer() {
   return (
@@ -12,47 +12,20 @@ export default function Footer() {
           </p>
         </div>
         <div className="flex justify-start gap-5 items-end">
-          <Image
-            src="/assets/social/whatsapp.svg"
-            width={30}
-            height={30}
-            alt="logo whatsapp"
-            onClick={() => console.log('clicked')}
-            className="cursor-pointer"
+          <Social icon="whatsapp" link="https://wa.me/6281313131313" />
+          <Social
+            icon="instagram"
+            link="https://www.instagram.com/geocourse.id"
           />
-
-          <a href="#">
-            <Image
-              src="/assets/social/instagram.svg"
-              width={30}
-              height={30}
-              alt="logo instagram"
-            />
-          </a>
-          <a href="#">
-            <Image
-              src="/assets/social/twitter.svg"
-              width={30}
-              height={30}
-              alt="logo twitter"
-            />
-          </a>
-          <a href="#">
-            <Image
-              src="/assets/social/linkedin.svg"
-              width={30}
-              height={30}
-              alt="logo linkedin"
-            />
-          </a>
-          <a href="#">
-            <Image
-              src="/assets/social/facebook.svg"
-              width={30}
-              height={30}
-              alt="logo facebook"
-            />
-          </a>
+          <Social icon="twitter" link="https://twitter.com/geocourse_id" />
+          <Social
+            icon="linkedin"
+            link="https://www.linkedin.com/company/geocourse-id"
+          />
+          <Social
+            icon="facebook"
+            link="https://www.facebook.com/geocourse.id"
+          />
         </div>
       </div>
       <div className="w-full md:w-3/12 flex flex-col justify-between">
