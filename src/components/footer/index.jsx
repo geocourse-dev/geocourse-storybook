@@ -1,4 +1,4 @@
-import Social from './social'
+import Social from '../social'
 
 export default function Footer() {
   return (
@@ -12,19 +12,35 @@ export default function Footer() {
           </p>
         </div>
         <div className="flex justify-center md:justify-start gap-5 items-end">
-          <Social icon="whatsapp" link="https://wa.me/6281313131313" />
+          <Social
+            icon="whatsapp"
+            link="https://wa.me/6281313131313"
+            width={30}
+            height={30}
+          />
           <Social
             icon="instagram"
             link="https://www.instagram.com/geocourse.id"
+            width={30}
+            height={30}
           />
-          <Social icon="twitter" link="https://twitter.com/geocourse_id" />
+          <Social
+            icon="twitter"
+            link="https://twitter.com/geocourse_id"
+            width={30}
+            height={30}
+          />
           <Social
             icon="linkedin"
             link="https://www.linkedin.com/company/geocourse-id"
+            width={30}
+            height={30}
           />
           <Social
             icon="facebook"
             link="https://www.facebook.com/geocourse.id"
+            width={30}
+            height={30}
           />
         </div>
       </div>
