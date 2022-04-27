@@ -1,4 +1,4 @@
-import { Button, Card, Contact, Footer } from '../components'
+import { Button, Card, CardBlog, Contact, Footer } from '../components'
 
 export default function Home() {
   return (
@@ -18,6 +18,26 @@ export default function Home() {
           onClick={() => console.log('test')}
         />
         <Contact />
+        <div className="w-8/12 mt-2 flex flex-col gap-5">
+          <CardBlog
+            image="blog.png"
+            size="small"
+            title="Belajar Geospasial"
+            description="Geospasial atau ruang kebumian adalah aspek keruangan yang
+            menunjukkan lokasi, letak, dan posisi."
+            date="Nov 21, 2021"
+            author="Admin"
+          />
+          <CardBlog
+            image="blog-2.png"
+            size="large"
+            title="Belajar Geospasial"
+            description="Geospasial atau ruang kebumian adalah aspek keruangan yang
+            menunjukkan lokasi, letak, dan posisi."
+            date="Nov 21, 2021"
+            author="Admin"
+          />
+        </div>
       </div>
 
       <Footer />
