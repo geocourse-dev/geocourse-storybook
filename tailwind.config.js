@@ -5,6 +5,7 @@ module.exports = {
       colors: {
         primary: '#8E1EA0',
         dark: '#3E3E3E',
+        'geocourse-gray': '#DDDDDF',
       },
     },
   },
